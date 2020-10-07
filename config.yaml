@@ -1,0 +1,12 @@
+defaults: &defaults
+   adapter: postgres
+   host: localhost
+   port: 8080
+
+development:
+   database: !!null null
+   <<: *defaults
+
+test:
+   database: app_test
+   <<: *defaults
