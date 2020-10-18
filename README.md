@@ -5,8 +5,8 @@
 [![Github](https://img.shields.io/badge/GitHub-TensorMap-181717?style=plastic&logo=GitHub)](https://github.com/social-learning/TensorMap)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-CodeForAll-0077B5?style=plastic&logo=LinkedIn)](https://www.linkedin.com/company/codeforall/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.3.1-FF6F00?style=plastic&logo=TensorFlow)](https://https://www.tensorflow.org/)
-[![TensorFlow](https://img.shields.io/badge/OpenAIGym-0.12.5-0081A5?style=plastic&logo=OpenAI-Gym)](https://gym.openai.com/)
-[![SciKitLearn](https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?style=plastic&logo=PyTorch)](https://pytorch.org/)
+[![OpenAIGym](https://img.shields.io/badge/OpenAIGym-0.12.5-0081A5?style=plastic&logo=OpenAI-Gym)](https://gym.openai.com/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?style=plastic&logo=PyTorch)](https://pytorch.org/)
 
 ## Installation
 Use the package manager [pip](https://pypi.org/project/TensorMap/) `pip install TensorMap` to install TensorMap.
