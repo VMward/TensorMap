@@ -1,5 +1,6 @@
 try:
     import _geohash
+    import math
 except ImportError:
     _geohash = None
 
@@ -489,8 +490,8 @@ def decode(geohash):
     """
     lat, lon, lat_err, lon_err = decode_exactly(geohash)
     # Format to the number of decimals that are known
-    lats = "%.*f" % (max(1, int(round(-log10(lat_err)))) - 1, lat)
-    lons = "%.*f" % (max(1, int(round(-log10(lon_err)))) - 1, lon)
+    lats = "%.*f" % (max(1, int(round(-math.log10(lat_err)))) - 1, lat)
+    lons = "%.*f" % (max(1, int(round(-math.log10(lon_err)))) - 1, lon)
     if '.' in lats: lats = lats.rstrip('0')
     if '.' in lons: lons = lons.rstrip('0')
     return lats, lons
